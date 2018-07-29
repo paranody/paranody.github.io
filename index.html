@@ -39,6 +39,9 @@
 
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- scrolling css-->
+	<link rel="stylesheet" href="css/stylescrolling-nav.css">
+
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -47,30 +50,11 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+
 	</head>
 	<body>
 
-	<nav id="colorlib-main-nav" role="navigation">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
-		<div class="js-fullheight colorlib-table">
-			<div class="colorlib-table-cell js-fullheight">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<ul>
-								<li class="active"><a href="index.html"><span>Home</span></a></li>
-								<li><a href="about.html"><span>About</span></a></li>
-								<li><a href="services.html"><span>Services</span></a></li>
-								<li><a href="work.html"><span>Work</span></a></li>
-								<li><a href="blog.html"><span>Blog</span></a></li>
-								<li><a href="contact.html"><span>Contact</span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</nav>
+
 
 	<div id="colorlib-page">
 		<header>
@@ -78,33 +62,30 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="colorlib-navbar-brand">
-							<a class="colorlib-logo" href="index.html">M.</a>
+							<a class="colorlib-logo" href="index.html">NDY.</a>
 						</div>
-						<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 					</div>
 				</div>
 			</div>
 		</header>
 		<div id="colorlib-hero" class="js-fullheight">
 			<p class="social-media">
-				<a href="#">Twitter</a>
-				<a href="#">Facebook</a>
-				<a href="#">Instagram</a>
-				<a href="#">Dribbble</a>
+				<a href="https://www.linkedin.com/in/paranody/" target="_blank">LinkedIn</a>
+				<a href="https://twitter.com/paranody" target="_blank">Twitter</a>
+				<a href="https://instagram.com/paranody" target="_blank">Instagram</a>
 			</p>
-			<div class="owl-carousel">
 				<div class="item">
 					<div class="hero-flex js-fullheight">
 						<div class="col-three-forth">
-							<div class="hero-img js-fullheight" style="background-image: url(images/img_bg_1.jpg);"></div>
+							<div class="hero-img js-fullheight" style="background-image: url(images/bg.jpg);"></div>
 						</div>
 						<div class="col-one-forth js-fullheight">
 							<div class="display-t js-fullheight">
 								<div class="display-tc js-fullheight">
 									<div class="text-inner">
 										<div class="desc">
-											<h2>I’m Martin, a developer from Berlin.</h2>
-											<p><a href="work.html" class="btn-view">Hire me now <i class="icon-arrow-right3"></i></a></p>
+											<h2>I’m Nody, a Software Developer / a system analyst.</h2>
+											<p><a href="#profile" class="btn-view js-scroll-trigger">Get to know me <i class="icon-arrow-right3"></i></a></p>
 										</div>
 									</div>
 								</div>
@@ -112,85 +93,32 @@
 						</div>
 					</div>
 				</div>
-				<div class="item">
-					<div class="hero-flex js-fullheight">
-						<div class="col-three-forth">
-							<div class="hero-img js-fullheight" style="background-image: url(images/img_bg_2.jpg);"></div>
-						</div>
-						<div class="col-one-forth js-fullheight">
-							<div class="display-t js-fullheight">
-								<div class="display-tc js-fullheight">
-									<div class="text-inner">
-										<div class="desc">
-											<h2>I'm a Digital Product Designer &amp; Art Director based in Berlin.</h2>
-											<p><a href="work.html" class="btn-view">Hire me now <i class="icon-arrow-right3"></i></a></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
-		<div class="colorlib-services">
+
+		<div class="colorlib-services colorlib-bg-white" id="profile">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-						<span>What I Do</span>
-						<h2>Strategy, design and a bit of magic</h2>
+						<span>Profile</span>
+						<h2>a software developer, a system analyst.</h2>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4 text-center animate-box">
-						<div class="services">
-							<span class="icon">
-								<i class="icon-magnifying-glass"></i>
-							</span>
-							<div class="desc">
-								<h3><a href="#">Explore</a></h3>
-								<h4>Design Sprints</h4>
-								<h4>Product Strategy</h4>
-								<h4>UX Strategy</h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 text-center animate-box">
-						<div class="services">
-							<span class="icon">
-								<i class="icon-layers"></i>
-							</span>
-							<div class="desc">
-								<h3><a href="#">Create</a></h3>
-								<h4>Information</h4>
-								<h4>UX/UI Design</h4>
-								<h4>Branding</h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 text-center animate-box">
-						<div class="services">
-							<span class="icon">
-								<i class="icon-lightbulb"></i>
-							</span>
-							<div class="desc">
-								<h3><a href="#">Learn</a></h3>
-								<h4>Prototyping</h4>
-								<h4>User Testing</h4>
-								<h4>UI Testing</h4>
-							</div>
+					<div class="col-md-8 col-md-offset-2">
+						<div class="about-info animate-box">
+							<p>Hi there! My name is Nody Risky Pratomo. I am a software developer based in Depok, West Java, Indonesia. I am a fresh graduate from Information System Department in Institut Teknologi Sepuluh Nopember Surabaya. I am interested in code especially PHP, HTML & CSS, and Python programming language. Besides programming, I also have experience as a system analyst to implement software inside a company. I see my self as a hardworking, fast learner, and detail-oriented person. I also a person who focuses on doing on one thing and urge to finish my work as soon as possible.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="colorlib-case colorlib-bg-white">
+		<div class="colorlib-case">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-						<span>Work</span>
-						<h2>Happy spending my time to this projects</h2>
+						<span>Experiences</span>
+						<h2>The work I have done.</h2>
 					</div>
 				</div>
 				<div class="work-wrap">
@@ -198,40 +126,40 @@
 						<div class="owl-carousel1">
 							<div class="item">
 								<div class="col-md-6">
-									<div class="case-img" style="background-image: url(images/work-1.jpg);"></div>
+									<div class="case-img" style="background-image: url(images/experience-1.jpg);"></div>
 								</div>
 								<div class="col-md-6">
 									<div class="case-desc">
-										<p class="tag"><span>UI/UX, Art Direction</span></p>
-										<h3><a href="#">Playtime Website Manager</a></h3>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small</p>
-										<p><a href="#" class="btn btn-primary">See details</a></p>
+										<p class="tag"><span>Website Developer</span></p>
+										<h3><a href="#">Egovbench</a></h3>
+										<p>Egovbench / E-government Benchmarking is a website to benchmark social media government in Indonesia. My responsibility is to manage its back-end and front-end for the website.</p>
+										<p><a href="http://is.its.ac.id/egovbench/" class="btn btn-primary" target="_blank">Go to page</a></p>
 									</div>
 								</div>
 							</div>
 							<div class="item">
 								<div class="col-md-6">
-									<div class="case-img" style="background-image: url(images/work-2.jpg);"></div>
+									<div class="case-img" style="background-image: url(images/experience-2.jpg);"></div>
 								</div>
 								<div class="col-md-6">
 									<div class="case-desc">
-										<p class="tag"><span>UI/UX, Art Direction</span></p>
-										<h3><a href="#">Race Mobile Application</a></h3>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small</p>
-										<p><a href="#" class="btn btn-primary">See details</a></p>
+										<p class="tag"><span>Front-end Developer</span></p>
+										<h3><a href="#">Campuspedia</a></h3>
+										<p>Campuspedia is a portal website for college student to share information about campus, student-achievement, etc. My responsibility is to manage the front-end of their website.</p>
+										<p><a href="https://campuspedia.id/" class="btn btn-primary" target="_blank">Go to page</a></p>
 									</div>
 								</div>
 							</div>
 							<div class="item">
 								<div class="col-md-6">
-									<div class="case-img" style="background-image: url(images/work-3.jpg);"></div>
+									<div class="case-img" style="background-image: url(images/experience-3.jpg);"></div>
 								</div>
 								<div class="col-md-6">
 									<div class="case-desc">
-										<p class="tag"><span>UI/UX, Art Direction</span></p>
-										<h3><a href="#">Playtime Website Manager</a></h3>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small</p>
-										<p><a href="#" class="btn btn-primary">See details</a></p>
+										<p class="tag"><span>System Analyst Internship</span></p>
+										<h3><a href="#">Garuda Maintenance Facility</a></h3>
+										<p>My responsibility was to collect the requirement for the program, design the database, and design the prototype to implement Customer Relationship Management.</p>
+
 									</div>
 								</div>
 							</div>
@@ -241,42 +169,273 @@
 			</div>
 		</div>
 
-		<div id="colorlib-subscribe">
-			<div class="overlay"></div>
+		<div class="colorlib-services colorlib-bg-white">
 			<div class="container">
-				<div class="row row-padded-bottom">
-					<div class="col-md-8 col-md-offset-2 text-center animate-box">
-						<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-						<p>Even the all-powerful <strong>Pointing</strong> has no <strong>control about the blind texts it is an almost unorthographic</strong> life One day however a small line of blind text</p>
-						<p><a href="#" class="resume"><i class="icon-documents"></i> Read my resume here</a></p>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+						<span>Skills</span>
+						<h2>My Skills & Abilities.</h2>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-						<h2>Subscribe Newsletter</h2>
-						<p>Subscribe our newsletter and get latest update</p>
+					<div class="col-md-3 text-center animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="icon-code2"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Programming Language</a></h3>
+								<h4>PHP</h4>
+								<h4>HTML & CSS</h4>
+								<h4>Python</h4>
+								<h4>Java</h4>
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="row animate-box">
-					<div class="col-md-6 col-md-offset-3">
-						<div class="row">
-							<div class="col-md-12">
-								<form class="form-inline qbstp-header-subscribe">
-									<div class="col-three-forth">
-										<div class="form-group">
-											<input type="text" class="form-control" id="email" placeholder="Enter your email">
-										</div>
-									</div>
-									<div class="col-one-third">
-										<div class="form-group">
-											<button type="submit" class="btn btn-primary">Subscribe Now</button>
-										</div>
-									</div>
-								</form>
+					<div class="col-md-3 text-center animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="icon-database2"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Database</a></h3>
+								<h4>MySQL</h4>
+								<h4>MongoDB</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 text-center animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="icon-cog2"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">ERP</a></h3>
+								<h4>SAP Sales & Distribution Module</h4>
+								<h4>SAP Material Management Module</h4>
+								<h4>Odoo Open ERP</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 text-center animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="icon-user3"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">IT Management</a></h3>
+								<h4>IT Risk Management</h4>
+								<h4>IT Business Process</h4>
+								<h4>IT Business Strategy</h4>
+								<h4>IT Performance Management</h4>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+
+
+
+		<div id="colorlib-subscribe">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+						<span>others</span>
+						<h2>Other stuff you should know.</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="about-info animate-box">
+							<h3>Organization & Committee</h3>
+							<div class="row">
+								<div class="wrap">
+									<div class="col-md-9 col-xs-9">
+										<p class="job">
+											Head of Entrepreneurship Department -
+											<span>BEM Fakultas Teknologi Informasi</span>
+										</p>
+										<p class="loc">Institut Teknologi Sepuluh Nopember</p>
+									</div>
+									<div class="col-md-3 col-xs-3">
+										<span class="year">July 2016 – June 2017</span>
+									</div>
+								</div>
+
+								<div class="wrap">
+									<div class="col-md-9 col-xs-9">
+										<p class="job">
+											Head of Sponsorship Division -
+											<span>FTIf Festival 2015</span>
+										</p>
+										<p class="loc">Institut Teknologi Sepuluh Nopember</p>
+									</div>
+									<div class="col-md-3 col-xs-3">
+										<span class="year">December 2015 – June 2016</span>
+									</div>
+								</div>
+
+								<div class="wrap">
+									<div class="col-md-9 col-xs-9">
+										<p class="job">
+											Staff of Design & Documentation Division -
+											<span>YES Summit 2015</span>
+										</p>
+										<p class="loc">Institut Teknologi Sepuluh Nopember</p>
+									</div>
+									<div class="col-md-3 col-xs-3">
+										<span class="year">January 2015 - June 2015</span>
+									</div>
+								</div>
+
+								<div class="wrap">
+									<div class="col-md-9 col-xs-9">
+										<p class="job">
+											Staff of Entrepreneurship Department -
+											<span>BEM Fakultas Teknologi Informasi</span>
+										</p>
+										<p class="loc">Institut Teknologi Sepuluh Nopember</p>
+									</div>
+									<div class="col-md-3 col-xs-3">
+										<span class="year">September 2015 - June 2016</span>
+									</div>
+								</div>
+
+								<div class="wrap">
+									<div class="col-md-9 col-xs-9">
+										<p class="job">
+											Staff of Badan Pengawas Kepengurusan -
+											<span>Himpunan Mahasiswa Sistem Informasi</span>
+										</p>
+										<p class="loc">Institut Teknologi Sepuluh Nopember</p>
+									</div>
+									<div class="col-md-3 col-xs-3">
+										<span class="year">September 2015 - June 2016</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="about-info animate-box">
+							<h3>Training</h3>
+							<div class="row">
+								<div class="wrap">
+									<div class="col-md-9 col-xs-9">
+										<p class="job">
+											Latihan Keterampilan Manajemen Mahasiswa Tingkat Menengah -
+											<span>BEM Fakultas Teknologi Informasi</span>
+										</p>
+										<p class="loc">Institut Teknologi Sepuluh Nopember</p>
+										<h5>This is the third of four level in Latihan Keterampilan Manajemen Mahasiswa series. From this training, I learn how to manage the organization like the strategy that I should implement for the organization, handle human resource in the organization, and make sheets of accountability for the organization.</h5>
+									</div>
+									<div class="col-md-3 col-xs-3">
+										<span class="year">2016</span>
+									</div>
+								</div>
+
+								<div class="wrap">
+									<div class="col-md-9 col-xs-9">
+										<p class="job">
+											Latihan Keterampilan Manajemen Mahasiswa Tingkat Dasar -
+											<span>Himpunan Mahasiswa Sistem Informasi</span>
+										</p>
+										<p class="loc">Institut Teknologi Sepuluh Nopember</p>
+										<h5>This training taught me about how to manage an event from the beginning until the end. From this training, I learn about making a decision for the theme that I should pick for the event, how to handle human resource in committee, and make sheets of accountability.</h5>
+									</div>
+									<div class="col-md-3 col-xs-3">
+										<span class="year">2015</span>
+									</div>
+								</div>
+
+								<div class="wrap">
+									<div class="col-md-9 col-xs-9">
+										<p class="job">
+											Latihan Keterampilan Manajemen Mahasiswa Pra Tingkat Dasar
+											<span>BEM Fakultas Teknologi Informasi</span>
+										</p>
+										<p class="loc">Institut Teknologi Sepuluh Nopember</p>
+										<h5>From this training, I learn about basic management skills, like how to manage your time, prioritize things, and how to solve conflict problem in personal.</h5>
+									</div>
+									<div class="col-md-3 col-xs-3">
+										<span class="year">2014</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="about-info animate-box">
+							<h3>Certification</h3>
+							<div class="row">
+								<div class="wrap">
+									<div class="col-md-9 col-xs-9">
+										<p class="job">
+											IC3 Living Online – Global Standard 4 -
+											<span>Certiport</span>
+										</p>
+										<h5>The certificate covers skills for working in an Internet or networked environment. Score 778/1000.</h5>
+									</div>
+									<div class="col-md-3 col-xs-3">
+										<span class="year">October 2017</span>
+									</div>
+								</div>
+
+								<div class="wrap">
+									<div class="col-md-9 col-xs-9">
+										<p class="job">
+											Supply Chain Management -
+											<span>IndonesiaX</span>
+										</p>
+										<h5>The certificate covers basic knowledge for supply chain management from IndonesiaX. Score 89/100.</h5>
+									</div>
+									<div class="col-md-3 col-xs-3">
+										<span class="year">March 2017</span>
+									</div>
+								</div>
+
+								<div class="wrap">
+									<div class="col-md-9 col-xs-9">
+										<p class="job">
+											SAP University Alliance -
+											<span>Institut Teknologi Sepuluh Nopember</span>
+										</p>
+										<h5>The certificate covers basic knowledge how to operate SAP in Sales & Distribution, Material Management, and Production Planning module.</h5>
+									</div>
+									<div class="col-md-3 col-xs-3">
+										<span class="year">December 2016</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="about-info animate-box">
+							<h3>Education</h3>
+							<div class="row">
+								<div class="wrap">
+									<div class="col-md-9 col-xs-9">
+										<p class="job">
+											Bachelor of Computer Science in Information System -
+											<span>Institut Teknologi Sepuluh Nopember</span>
+										</p>
+									</div>
+									<div class="col-md-3 col-xs-3">
+										<span class="year">2014 -2018</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row row-padded-bottom">
+							<div class="col-md-8 col-md-offset-2 text-center animate-box">
+								<p>Want to know me more?</p>
+								<p><a href="Nody Risky Pratomo - CV.pdf" class="resume"><i class="icon-documents"></i> Read my resume here</a></p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
 			</div>
 		</div>
 
@@ -285,18 +444,17 @@
 				<div class="row row-padded-bottom">
 					<div class="col-md-6">
 						<h3>Lets Talk</h3>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text</p>
-						<p class="btn-footer"><a href="#">Tell us about your project</a></p>
+						<p>Do you want something to discuss?</p>
+						<p class="btn-footer"><a href="mailto:nodyriskypratomo@gmail.com">Tell me about it!</a></p>
 					</div>
 					<div class="col-md-6 info">
 						<h3>Info</h3>
-						<p>Email: <strong><a href="#">youremail@mail.com</a></strong></p>
-						<p>Phone: <strong><a href="#">(+00) 9876 5432</a></strong></p>
-						<p>Address: <strong>291 South 21th Street, <br> Suite 721 New York NY 10016</strong></p>
+						<p>Email: <strong>nodyriskypratomo@gmail.com</a></strong></p>
+						<p>Address: <strong>Depok, West Java<br> Indonesia</strong></p>
 						<p class="colorlib-social-icons">
-							<span><a href="#"><i class="icon-social-facebook"></i>Facebook</a></span>
-							<span><a href="#"><i class="icon-social-twitter"></i>Twitter</a></span>
-							<span><a href="#"><i class="icon-social-dribbble"></i>Dribbble</a></span>
+							<span><a href="https://www.linkedin.com/in/paranody/" target="_blank"><i class="icon-social-linkedin"></i>LinkedIn</a></span>
+							<span><a href="https://www.instagram/paranody" target="_blank"><i class="icon-instagram"></i>Instagram</a></span>
+							<span><a href="https://www.twitter.com/paranody" target="_blank"><i class="icon-social-twitter"></i>Twitter</a></span>
 						</p>
 					</div>
 				</div>
@@ -305,10 +463,9 @@
 				<div class="row copyright">
 					<div class="col-md-4 col-md-offset-4 text-center">
 						<p>
-							<small class="block">&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+							<small class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved<br> This template is made with by <a href="https://colorlib.com" target="_blank">Colorlib</a> and modified by Nody Risky Pratomo
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small>
-							<small class="block">Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a> , <a href="https://www.pexels.com/" target="_blank">Pexels</a></small>
 						</p>
 					</div>
 				</div>
@@ -332,6 +489,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+
+	<!-- scroling javascript -->
+	<script src="js/scrolling-nav.js"></script>
 
 	</body>
 </html>
